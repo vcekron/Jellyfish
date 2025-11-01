@@ -1959,8 +1959,12 @@ h3.tagline {
 
 /* Margin adjustments for parent name (Album/Artist) in the music player's name container (Desktop). */
 .layout-desktop .nameContainer .musicParentName {
-    margin-top: 18px !important;
-    margin-right: 22px !important;
+    margin-right: 20px !important;
+    font-size: 1.8em;
+}
+
+.layout-desktop .nameContainer .musicParentName::after {
+    content: " -" !important;
 }
 
 /* Margin adjustments for the Now Playing bar itself and its position container (Desktop). */
