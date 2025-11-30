@@ -201,7 +201,7 @@ span.MuiButtonBase-root.MuiCheckbox-root.MuiCheckbox-colorPrimary.MuiCheckbox-si
 }
 
 /* Dashboard Theme Update Date */
-.css-1787okl::after {
+.css-cdamzk > .css-1787okl::after {
     content: "Theme last updated on " var(--theme-updated-on, "..........");
     display: block;
     background-color: var(--alt-accent-color);
