@@ -564,7 +564,7 @@ progress::-webkit-progress-value  /* Filled part of the progress bar (WebKit) */
     .layout-desktop .headerLeft {
         padding: 2px !important;
         top: -3px !important;
-        background-color: var(--primary-background-transparent) !important; /* Fallback background */
+        background-color: transparent !important; /* Keep transparent for fallback to match modern browser behavior */
         border-radius: 50px !important; /* Different rounding for fallback */
     }
 }
